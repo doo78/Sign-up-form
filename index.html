@@ -9,24 +9,36 @@
 <body>
     <div class="display">
         <div class="left-display">
-            Hi
+            
+            <div class="strip">
+                
+                <img src="odin-lined.png" id="odin-logo">
+                <div id="strip-text">ODIN</div>
+                
+            </div>
+            
         </div>
 
         <div class="right-display">
-            <h2 class="header-text">This is not a real online service! You 
-                know you need something like this in your life to help
-                you realise your deepest dreams. <br>
-                Sign up <em>now</em> to get started.
-            </h2>
 
-            <h2 class="header-text">You <em>know</em> you want to.</h2>
+            <div class="header">
+                <h2 class="header-text">This is not a real online service! You 
+                    know you need something like this in your life to help
+                    you realise your deepest dreams. <br>
+                    Sign up <em>now</em> to get started.
+                </h2>
 
-            <hr>
+                <h2 class="header-text">You <em>know</em> you want to.</h2>
 
-            <form>
+            </div>
+                
+            <form id="form">
+
                 <h2 class="form-header">Let's do this!</h2>
 
                 <div class="form-input">
+
+                    
                     <div class="left-column">
 
                         <div class="form-entry">
@@ -65,14 +77,15 @@
 
                 </div>
 
-                <hr>
 
-                <button type="submit" id="submit-btn">Create Account</button>
             </form>
 
-            <div id="login-text">Already have an account? Log in</div>
+                <div class="footer">
+                <button type="submit" id="submit-btn" form="form">Create Account</button>
 
+                <div id="login-text">Already have an account? <a href="x.com"><span id="link">Log in</span></a></div>
 
+            </div>
         </div>
 
 
