@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.display{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.left-display{
+    border: 2px solid black;
+    flex-basis: 38%;
+}
+
+.right-display{
+    border: 2px solid black;
+    flex-basis: 62%;
+}
+
+.form-input{
+    display: flex;
+    gap: 200px;
+}
+
+
+.left-column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-entry{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    
+}
+
+input:focus{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); 
+    border-color: blue;
+    outline: none;
+}
+
+#password:valid{
+    border-color: green;
+}
+
+#password:invalid{
+    border-color: red;
+}
